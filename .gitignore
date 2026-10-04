@@ -1,0 +1,7 @@
+echo "__pycache__/" > .gitignore
+echo ".env" >> .gitignore
+echo "*.pyc" >> .gitignore
+
+git add parser.py .gitignore
+git commit -m "Initial commit: Add concurrent network switch error parser"
+git push -u origin main --force
